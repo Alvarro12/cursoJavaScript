@@ -19,3 +19,22 @@ console.log(cotarVocales('hola'))
 // function calcular(num1,o,num2){
 // }
 // console.log(12,12)
+
+function calculadora(num1,num2,op){
+    let resultado=0
+    if (op=="+"){
+        resultado=(num1+num2)    
+    }
+    else if (op=="-"){
+        resultado=(num1-num2)
+    }
+    else if (op=="*"){
+        resultado=(num1*num2)
+    }
+    else if (op=="*"){
+        resultado=(num1/num2)
+    }
+    return resultado
+}
+console.log(calculadora(10,8,"+"))
+
